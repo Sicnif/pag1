@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica;
+    background-attachment: #e8e8e8;
+    margin: 0; /* Eliminar los márgenes por defecto */
+}
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #f2f2f2;
+    width: 100%; /* Cambiar el ancho al 100% */
+    margin: 0; /* Eliminar el margen horizontal */
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    width: 20%; /* Ajustar el ancho de cada elemento del menú */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block; /* Cambiar a "block" para ocupar todo el ancho disponible */
+    background: #ef8354;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu img {
+    width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: 50px;
+    margin-right: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}

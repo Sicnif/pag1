@@ -1,0 +1,54 @@
+h1{
+
+    text-align: center;
+  
+    color: white;
+    padding: 20px;
+}
+nav ul{
+background-color: #e8e8e8;
+width: 100%;
+list-style-type: none;
+text-align: center;
+}
+nav li{
+display: inline-flex;
+
+}
+nav a{
+text-decoration: none;
+color: black;
+padding: 10px;
+
+}
+nav li:hover{
+background-color: orangered;
+}
+body {
+    background-image: url("prue3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo-image {
+    max-width: 100px; /* Ajusta el tamaño de la imagen según tus preferencias */
+}
+
+#slogan {
+    font-size: 19px; /* Ajusta el tamaño de fuente según tus preferencias */
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
